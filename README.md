@@ -2,8 +2,7 @@
 The lower end of the Team Fortress 2 trading economy is dependant on hordes of trading bots. The prices lists of these bots are not always in line with eachother. Thus, arbitrage is possible and consistent low-profit trading opportunities are ever-present.
 
 This program scans a TF2 trading website, [STNTrading.eu](https://stntrading.eu/), and looks for items that can be purchased for a lower price than the buy orders on another trading website, [backpack.tf](https://backpack.tf/). Once the program finds a match, simply purchase the item for the first site, and sell it to a bot on the other.
-
-## Using the program
+## Guide
 This tool requires an up-to-date java installation. To open it, download and run TF2ProfitHunter.jar.
 Fill in all the necessary fields:
 - Under *Maximum Price*, enter the amount of currencies that you have at your disposal. The scraper will ignore items that are more expensive than your budget.
@@ -15,4 +14,4 @@ Currently, inputs are not well validated. Just make sure to only enter numbers w
 After a few minutes (or more, depending on how high your budget is), the search should be complete. Any profitable trades will be displayed in the textarea at the bottom of the window.
 Then, just buy from STN, sell to BP, and *voila*! You just made some easy profit!
 
-*If you've enjoyed use of this program and would like to support me, feel free to [send me some items](https://steamcommunity.com/tradeoffer/new/?partner=312046080&token=EBWiXMVe). Constructive criticism and suggestions are also always welcome.*
+*If you've enjoyed using this program and would like to support me, feel free to [send me some items](https://steamcommunity.com/tradeoffer/new/?partner=312046080&token=EBWiXMVe). Constructive criticism and suggestions are also always welcome.*
