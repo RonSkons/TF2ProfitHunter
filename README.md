@@ -1,5 +1,5 @@
 # TF2ProfitHunter
-The lower end of the Team Fortress 2 trading economy is dependant on hordes of trading bots. However, prices list of these bots are not always in line with eachother. Thus, arbitrage is possible and consistent low-profit trading opportunities are ever-present.
+The lower end of the Team Fortress 2 trading economy is dependant on hordes of trading bots. However, prices list of these bots are not always in line with eachother. Thus, arbitrage is possible and profitable trading opportunities are consistently present.
 
 This program scans a TF2 trading website, [STNTrading.eu](https://stntrading.eu/), and looks for items that can be purchased for a lower price than the buy orders on another trading website, [backpack.tf](https://backpack.tf/). Once the program finds a match, simply purchase the item for the first site, and sell it to a bot on the other.
 ## Guide
