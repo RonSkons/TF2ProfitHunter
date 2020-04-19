@@ -3,7 +3,7 @@ The lower end of the Team Fortress 2 trading economy is dependant on hordes of t
 
 This program scans a TF2 trading website, [STNTrading.eu](https://stntrading.eu/), and looks for items that can be purchased for a lower price than the buy orders on another trading website, [backpack.tf](https://backpack.tf/). Once the program finds a match, simply purchase the item for the first site, and sell it to a bot on the other.
 
-Note: Uses [javax.json](https://docs.oracle.com/javaee/7/api/javax/json/package-summary.html) in order to parse responses from the BP.tf API. I've uploaded the JAR file of the library, but it must be manually added to the classpath in NetBeans (or your preferred IDE).
+Note: Uses [javax.json](https://docs.oracle.com/javaee/7/api/javax/json/package-summary.html) in order to parse responses from the BP.tf API. I've uploaded the JAR file of the library, but it must be manually added to the classpath in your preferred IDE.
 ## Guide
 This tool requires an up-to-date java installation. To open it, download and run TF2ProfitHunter.jar.
 Fill in all the necessary fields:
