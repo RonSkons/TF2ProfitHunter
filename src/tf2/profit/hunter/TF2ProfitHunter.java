@@ -23,7 +23,7 @@ public class TF2ProfitHunter {
         minProfit = min;
         budget = max;
     }
-    public String search() {
+    public String search() {        
         String output;//This string will store the formatted results of the search
         HashMap<String, Price> potentials = new HashMap(); //This will store potentially profitable items - with a key/value of name/Price
         int currentPageNumber = 1;
@@ -168,6 +168,6 @@ public class TF2ProfitHunter {
     
     private boolean isPurchaseable(String itemName){//Determines if the specified item can be purchased from STN - returns true if it can, false if it can't.
         String buyPage = get("https://stntrading.eu/item/tf2/"+urlEncode(itemName));
-        return buyPage.contains("Buy for"); //If the page contains "Buy for" (as opposed to "Buy from killstreaker for") the item can be purchased.
+        return buyPage.matches("(?is).*"+stnItemCategory.substring(4, stnItemCategory.length()-1)+"s? in stock.*"); //If the page contains "[Category name](s) in stock" (as opposed to "Killstreak(s) in stock") the item can be purchased.
     }
 }
