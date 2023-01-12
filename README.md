@@ -17,5 +17,3 @@ Finally, hit *Begin Search*. The program will begin comparing prices across the 
 Currently, inputs are not well validated. Just make sure to only enter numbers where numbers whould be entered, and that your API key is correct.
 After a few minutes (or more, depending on how high your budget is), the search should be complete. Any profitable trades will be displayed in the textarea at the bottom of the window.
 Then, just buy from STN, sell to BP, and *voila*! You just made some easy profit!
-
-*If you've enjoyed using this program and would like to support me, feel free to [send me some items](https://steamcommunity.com/tradeoffer/new/?partner=312046080&token=EBWiXMVe). Constructive criticism and suggestions are also always welcome.*
